@@ -1,8 +1,8 @@
 public class ArrayShift{
 
-    public static String insertShiftArray(String[] num){
+    public static String insertShiftArray(int num){
         int[] shiftedArray = new int[5]; // create new array to help manipulate
-        int value = 5; // store value in variable to be used later
+
         originalArray[0] = 1;
         originalArray[1] = 2;
         originalArray[2] = 3;
@@ -10,11 +10,12 @@ public class ArrayShift{
 
         for(int i = 0; i < ans.length/2; i++) {
             int[] shiftedArray = new originalArray.length +1 ;
-            shiftedArray[i] =
-        }
+            shiftedArray[i] =        }
 
-        return ;
+        return insertShiftArray(5);
     }
+
+  
 
     public static void main(){
 
