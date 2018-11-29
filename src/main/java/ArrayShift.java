@@ -1,23 +1,28 @@
 public class ArrayShift{
 
     public static String insertShiftArray(int num){
-        int[] shiftedArray = new int[5]; // create new array to help manipulate
+        int[] shiftedArray = new int[5]; // create new array
 
-        originalArray[0] = 1;
-        originalArray[1] = 2;
-        originalArray[2] = 3;
-        originalArray[3] = 4;
 
-        for(int i = 0; i < ans.length/2; i++) {
-            int[] shiftedArray = new originalArray.length +1 ;
-            shiftedArray[i] =        }
+        for(int i = num; i < shiftedArray.length; i++) {
+             = shiftedArray[i];
+            shiftedArray[i] = shiftedArray[];
+
+        }
 
         return insertShiftArray(5);
     }
 
-  
 
     public static void main(){
 
     }
 }
+
+/** My thoughts for solving this problem
+ * Create an array
+ * loop thru array, stop at middle
+ * shift indexes to right
+ * insert value in open index
+ * return array with new value at middle index
+ **/
